@@ -84,9 +84,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerbers/"))
   )
 
   (net 0 "")
@@ -943,7 +943,7 @@
   (gr_arc (start 95.15 73.35) (end 95.15 68.35) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 185.15 73.35) (end 190.15 73.35) (angle -90) (layer Edge.Cuts) (width 0.05))
 
-  (zone (net 0) (net_name "") (layer F.Paste) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Paste) (tstamp 613B282B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -980,7 +980,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Paste) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Paste) (tstamp 613B2828) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -992,6 +992,17 @@
     (filled_polygon
       (pts
         (xy 182.264288 88.35) (xy 178.15155 88.35) (xy 178.729904 85.424211) (xy 182.200717 85.330406)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 149.675 89.975) (xy 131.075 89.975) (xy 131.075 84.3) (xy 149.675 84.3)
       )
     )
   )
