@@ -1,0 +1,81 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 613A5B04
+P 5900 3750
+F 0 "Q?" H 6091 3750 50  0001 L CNN
+F 1 "Q_NPN_BCE" H 6091 3705 50  0001 L CNN
+F 2 "" H 6100 3850 50  0001 C CNN
+F 3 "~" H 5900 3750 50  0001 C CNN
+	1    5900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 613A5EDF
+P 5900 4550
+F 0 "Q?" H 6091 4596 50  0001 L CNN
+F 1 "Q_NPN_BCE" H 6091 4550 50  0001 L CNN
+F 2 "" H 6100 4650 50  0001 C CNN
+F 3 "~" H 5900 4550 50  0001 C CNN
+	1    5900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 613A7A2B
+P 6000 3350
+F 0 "#PWR?" H 6000 3200 50  0001 C CNN
+F 1 "VDD" H 6015 3523 50  0000 C CNN
+F 2 "" H 6000 3350 50  0001 C CNN
+F 3 "" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613A92F8
+P 6000 4850
+F 0 "#PWR?" H 6000 4600 50  0001 C CNN
+F 1 "GNDREF" H 6005 4677 50  0001 C CNN
+F 2 "" H 6000 4850 50  0001 C CNN
+F 3 "" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3750 5450 3750
+Text GLabel 5450 3750 0    50   Input ~ 0
+A
+Wire Wire Line
+	5700 4550 5450 4550
+Text GLabel 5450 4550 0    50   Input ~ 0
+B
+Wire Wire Line
+	6000 4350 6000 3950
+Wire Wire Line
+	6000 4750 6000 4850
+Wire Wire Line
+	6000 3550 6000 3450
+Wire Wire Line
+	6000 3450 6450 3450
+Connection ~ 6000 3450
+Wire Wire Line
+	6000 3450 6000 3350
+Text GLabel 6450 3450 2    50   Input ~ 0
+~AB
+$EndSCHEMATC

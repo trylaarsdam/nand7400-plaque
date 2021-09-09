@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nand7400-plaque)(type KiCad)(uri ${KIPRJMOD}/nand7400-plaque.pretty)(options "")(descr ""))
+)
