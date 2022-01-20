@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*
-G04 #@! TF.CreationDate,2022-01-20T10:41:43-06:00*
+G04 #@! TF.CreationDate,2022-01-20T10:41:44-06:00*
 G04 #@! TF.ProjectId,nand7400-plaque,6e616e64-3734-4303-902d-706c61717565,rev?*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FileFunction,Legend,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-01-20 10:41:43*
+G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-01-20 10:41:44*
 %MOMM*%
 %LPD*%
 G01*
